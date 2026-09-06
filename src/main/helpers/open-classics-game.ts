@@ -7,9 +7,12 @@ import {
   NativeAddon,
   WindowManager,
 } from "@main/services";
-import type { GameShop, LaunchSource, RetroArchPlatform } from "@types";
-import { logger, NativeAddon } from "@main/services";
-import type { EmulatorSystem, GameShop, RetroArchPlatform } from "@types";
+import type {
+  EmulatorSystem,
+  GameShop,
+  LaunchSource,
+  RetroArchPlatform,
+} from "@types";
 import { launchClassicsGame } from "./launch-classics-game";
 import { launchRetroArchGame } from "./launch-retroarch-game";
 import { platformToRetroArchPlatform } from "./platform-to-retroarch-platform";
